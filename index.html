@@ -30,21 +30,30 @@
                                 </div>
                                     <!--Cuerpo del modal--> 
                                     <div class="modal-body">
-                                            <p class="caption">Caption:</p>
+                                            <p class="caption fw-bold fs-6">Caption:</p>
                                             <div class="form-group" id="form-comments col-12">
                                                 <textarea class="form-control" cols="5" rows="3" placeholder="Add the caption of your post here"></textarea>
+                                            </div>
+                                            <div class="modal-body-icons">
+                                                <button type="button" class="btn btn-light">
+                                                        <i class="fa-solid fa-camera"></i> 
+                                                </button>
+                                                <button type="button" class="btn btn-light">
+                                                    <i class="fa-solid fa-location-dot"></i>
+                                                </button>
                                             </div>
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                        <button type="button" class="btn btn-success">Publish</button>
                                     </div>
                             </div>
                         </div>
                     </div>    
             </div>
+            <!--Fin de modal-->
+            <!--Menu desplegable--> 
             <div class="setup">
-                <!--Menu desplegable-->
                 <div class="dropdown">
                     <!--Boton disparador del menu-->
                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -61,8 +70,42 @@
                     </ul>
                 </div>
             </div>
+            <!--Fin del menu desplegable-->
         </div>
     </div>
+    <!--Grid images-->
+    <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="gridmp" data-bs-toggle="tab" data-bs-target="#gridmp-content" type="button" role="tab" aria-controls="gridmp-content" aria-selected="true">Home</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="gridmp-content" role="tabpanel" aria-labelledby="gridmp">
+            <div class="container-fluid">
+                <div class="row filas">
+                    <div class="col-4 images"><img src="https://fastly.picsum.photos/id/22/4434/3729.jpg?hmac=fjZdkSMZJNFgsoDh8Qo5zdA_nSGUAWvKLyyqmEt2xs0" class="img-fluid" srcset=""></div>
+                    <div class="col-4 images"><img src="https://fastly.picsum.photos/id/22/4434/3729.jpg?hmac=fjZdkSMZJNFgsoDh8Qo5zdA_nSGUAWvKLyyqmEt2xs0" class="img-fluid" srcset=""></div>
+                    <div class="col-4 images"><img src="https://fastly.picsum.photos/id/22/4434/3729.jpg?hmac=fjZdkSMZJNFgsoDh8Qo5zdA_nSGUAWvKLyyqmEt2xs0" class="img-fluid" srcset=""></div>
+                </div>
+                <div class="row filas">
+                    <div class="col-4 images"><img src="https://fastly.picsum.photos/id/22/4434/3729.jpg?hmac=fjZdkSMZJNFgsoDh8Qo5zdA_nSGUAWvKLyyqmEt2xs0" class="img-fluid" srcset=""></div>
+                    <div class="col-4 images"><img src="https://fastly.picsum.photos/id/22/4434/3729.jpg?hmac=fjZdkSMZJNFgsoDh8Qo5zdA_nSGUAWvKLyyqmEt2xs0" class="img-fluid" srcset=""></div>
+                    <div class="col-4 images"><img src="https://fastly.picsum.photos/id/22/4434/3729.jpg?hmac=fjZdkSMZJNFgsoDh8Qo5zdA_nSGUAWvKLyyqmEt2xs0" class="img-fluid" srcset=""></div>
+                </div>
+                <div class="row filas">
+                    <div class="col-4 images"><img src="https://fastly.picsum.photos/id/22/4434/3729.jpg?hmac=fjZdkSMZJNFgsoDh8Qo5zdA_nSGUAWvKLyyqmEt2xs0" class="img-fluid" srcset=""></div>
+                    <div class="col-4 images"><img src="https://fastly.picsum.photos/id/22/4434/3729.jpg?hmac=fjZdkSMZJNFgsoDh8Qo5zdA_nSGUAWvKLyyqmEt2xs0" class="img-fluid" srcset=""></div>
+                    <div class="col-4 images"><img src="https://fastly.picsum.photos/id/22/4434/3729.jpg?hmac=fjZdkSMZJNFgsoDh8Qo5zdA_nSGUAWvKLyyqmEt2xs0" class="img-fluid" srcset=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">5</div>
+      </div>
+   
+
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>    

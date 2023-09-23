@@ -10,13 +10,11 @@
     height: 60px;
     display: flex;
     flex-direction: row;
-    border: 2px solid red;
     align-items: center;
     justify-content: space-between;
 }
 .left_header{
     width: 12%;
-    border:2px solid red;
     display: flex;
     align-items: center;
     gap: 5px;
@@ -24,6 +22,7 @@
     font-size: 20px;
 
 }
+
 .right_header{
     width: 35%;
     display: flex;
@@ -31,13 +30,13 @@
     align-items: center;
     justify-content: flex-end;
     gap: 5px;
-    border: 2px solid red;
 }
 
 #instagram{
     letter-spacing: -1px;
 }
 
+/*Modal*/
 .modal-header{
     display: flex;
     flex-direction: row;
@@ -48,4 +47,20 @@
 .modal-body{
     display: flex;
     flex-direction: column;
+    justify-items: space-evenly;
+}
+.modal-body-icons{
+    margin-top: 10px;
+} 
+.caption{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+/*Fin modal*/
+
+.filas{
+    margin: 2px -14px -4px -14px;
+}
+.images{
+    padding: 3px;
 }
