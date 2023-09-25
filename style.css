@@ -51,4 +51,9 @@
 }
 .images{
     padding: 3px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
